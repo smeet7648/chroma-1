@@ -4,8 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="nav">
+            <div class="logo">
+                <img class="img1" src="logo.png" alt="">
+            </div>
+            <div class="nc">
+                <img class="img2" src="threeline.png" alt="" id="open1">
+                <p class="p1">Menu</p>
+                <div class="show" id="show1">
+                    <img class="img3" src="close.png" alt="" id="close1">
+                    <a href="#"><p class="k1">Telivision & Accessories</p></a>
+                    <a href="#"><p class="k2">Home Appliences</p></a>
+                    <a href="#"><p class="k3">Phone & Wereables</p></a>
+                    <a href="#"><p class="k4">Computers & Tablets</p></a>
+                    <a href="#"><p class="k5">Kitchen Appliences</p></a>
+                    <a href="#"><p class="k6">Health & Fitness</p></a>
+                    <a href="#"><p class="k7">Grooming & Personalcare</p></a>
+                    <a href="#"><p class="k8">Cameras & Accessories</p></a>
+                    <a href="#"><p class="k9">Smart Devices</p></a>
+                    <a href="#"><p class="k10">Gaming</p></a>
+                    <a href="#"><p class="k11">Accessories</p></a>
+                    <a href="#"><p class="k12">Zip Cares</p></a>
+                </div>
+            </div>
+            <div class="search">
+                <input type="text" name="" id="" class="search1" placeholder="What are you looking for ?">
+                <div class="ext">
+                    <img src="search.png" alt="" class="img3">
+                </div>
+            </div>
+            <div class="add">
+                <img src="location.png" alt="" class="img4">
+                <p class="p2">Mumbai,400049</p>
+            </div>
+            <div class="acc">
+                <img src="acc.png" alt="" class="img5" id="acc3">
+                <div class="accinfo" id="accshow">
+                    <a href="#">
+                    	<p class="z1">My Profile</p>
+                    	<p class="x1">Edit your basic deteils</p>
+                    </a>
+                    <a href="#">
+                    	<p class="z2">My Address</p>
+                    	<p class="x2">Manage your saved addresses</p>
+                    </a>
+                    <a href="#">
+                    	<p class="z3">My Orders</p>
+                    	<p class="x3">View,track,cancel orders and buy agian</p>
+                    </a>
+                    <a href="#">
+                    	<p class="z4">My Privilage Offers </p>
+                    	<p class="x4">Exclusive offers for you</p>
+                    </a>
+                    <a href="#">
+                    	<p class="z5">My Wishlist</p>
+                    	<p class="x5">Have a look at your favourite products</p>
+                    </a>
+                    <a href="#">
+                    	<p class="z6">My Devices & Plans</p>
+                    	<p class="x6">Manage your devices and plans</p>
+                    </a>
+                    <a href="#">
+                    	<p class="z7">My Service Requests</p>
+                    	<p class="x7">Manage complaints,feedback,service requests</p>
+                    </a>
+                    <a href="#">
+                    	<p class="z8">Login</p>
+                    </a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="cart.png" alt="" class="img6">
+            </div>
+        </div>
+    </nav>
 </body>
+<script>
+    document.getElementById("open1").addEventListener("click",function(){
+        document.getElementById("show1").style.display="flex";
+    })
+    document.getElementById("close1").addEventListener("click",function(){
+        document.getElementById("show1").style.display="none";
+    })
+    document.getElementById("acc3").addEventListener("click",function(){
+        document.getElementById("accshow").style.display="flex";
+    })
+</script>
 </html>
