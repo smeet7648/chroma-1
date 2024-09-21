@@ -10,7 +10,7 @@
     <nav>
         <div class="nav">
             <div class="logo">
-                <img class="img1" src="logo.png" alt="">
+                <a href="#"><img class="img1" src="logo.png" alt=""></a>
             </div>
             <div class="nc">
                 <img class="img2" src="threeline.png" alt="" id="open1">
@@ -44,6 +44,7 @@
             <div class="acc">
                 <img src="acc.png" alt="" class="img5" id="acc3">
                 <div class="accinfo" id="accshow">
+                    <img src="close.png" alt="" class="close" id="close4">
                     <a href="#">
                     	<p class="z1">My Profile</p>
                     	<p class="x1">Edit your basic deteils</p>
@@ -82,7 +83,7 @@
             </div>
         </div>
     </nav>
-    <div class="slider"></div>
+    <!-- <div class="slider"></div> -->
         <div class="slides">
             <div class="slide">
               <a href="#"> <img src="iphone.png" ></a> 
@@ -114,6 +115,9 @@
     })
     document.getElementById("acc3").addEventListener("click",function(){
         document.getElementById("accshow").style.display="flex";
+    })
+    document.getElementById("close4").addEventListener("click", function () {
+        document.getElementById("accshow").style.display = "none";
     })
 </script>
 </html>
