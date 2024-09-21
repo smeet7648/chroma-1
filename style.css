@@ -198,12 +198,6 @@ body a {
   font-size: 20px;
   margin-top: 20px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .slider {
   width: 400%;
   height: 930px;
@@ -212,10 +206,11 @@ body a {
 }
 
 .slides {
-  display: flex;
-  width: 25%;
-  height: 100%;
-  animation: slide 12s infinite;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    animation: slide 12s infinite;
+    margin-top: -930px;
 }
 
 .slide {
