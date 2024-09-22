@@ -2,33 +2,41 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 0;
   padding: 0;
+  /* overflow-x: hidden; */
 }
+
 body p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 body a {
   text-decoration: none;
 }
+
 @media screen and (max-width: 1920px) {
   nav {
     width: 100%;
     background-color: black;
     height: 110px;
   }
+
   .img1 {
     width: 205px;
     height: 62px;
     margin-left: -33px;
     margin-top: 9px;
   }
+
   .nc {
     margin-left: 42px;
     margin-top: 29px;
   }
+
   .img2 {
     cursor: pointer;
     width: 33px;
@@ -36,19 +44,23 @@ body a {
     margin-left: 10px;
     margin-top: 10px;
   }
+
   .p1 {
     font-size: 15px;
     color: white;
     margin-left: 47px;
     margin-top: -27px;
   }
+
   .search {
     margin-left: 14px;
     margin-top: 24px;
   }
+
   .search1:placeholder-shown {
     padding-left: 15px;
   }
+
   .search1 {
     width: 591px;
     height: 60px;
@@ -58,10 +70,12 @@ body a {
     border: 2px solid black;
     border-radius: 9px;
   }
+
   .ext {
     margin-left: 611px;
     margin-top: -46px;
   }
+
   .img3 {
     width: 25px;
     height: 20px;
@@ -69,26 +83,31 @@ body a {
     margin-top: 10px;
     cursor: pointer;
   }
+
   .add {
     margin-left: 331px;
     margin-top: 32px;
   }
+
   .img4 {
     width: 23px;
     height: 33px;
     margin-left: 20px;
     margin-top: 10px;
   }
+
   .p2 {
     margin-left: 46px;
     margin-top: -30px;
     font-size: 17px;
     color: white;
   }
+
   .acc {
     margin-left: 0px;
     margin-top: 25px;
   }
+
   .img5 {
     width: 25px;
     height: 25px;
@@ -96,10 +115,12 @@ body a {
     margin-top: 17px;
     cursor: pointer;
   }
+
   .cart {
     margin-left: 20px;
     margin-top: 27px;
   }
+
   .img6 {
     width: 35px;
     height: 25px;
@@ -107,12 +128,14 @@ body a {
     margin-top: 15px;
     cursor: pointer;
   }
+
   .slide img {
     width: 1916px;
     height: 888px;
     object-fit: cover;
   }
 }
+
 @media screen and (max-width:1536px) {
   nav {
     width: 100%;
@@ -121,23 +144,28 @@ body a {
     position: fixed;
     margin-top: -80px;
   }
+
   .nav {
     display: flex;
   }
+
   .img1 {
     width: 145px;
     height: 42px;
     margin-left: 12px;
     margin-top: 3px;
   }
+
   .logo {
     margin-left: 170px;
     margin-top: 15px;
   }
+
   .nc {
     margin-left: 30px;
     margin-top: 15px;
   }
+
   .img2 {
     cursor: pointer;
     width: 30px;
@@ -145,12 +173,14 @@ body a {
     margin-left: 10px;
     margin-top: 10px;
   }
+
   .p1 {
     font-size: 15px;
     color: white;
     margin-left: 46px;
     margin-top: -29px;
   }
+
   .show {
     position: absolute;
     top: 25px;
@@ -164,23 +194,28 @@ body a {
     justify-content: flex-start;
     display: none;
   }
+
   .img3 {
     cursor: pointer;
     width: 30px;
     height: 30px;
   }
+
   .show a {
     color: white;
     margin-top: 10px;
     margin-bottom: 15px;
   }
+
   .k1 {
     margin-top: 20px;
   }
+
   .search {
     margin-left: 0px;
     margin-top: 10px;
   }
+
   .search1 {
     width: 470px;
     height: 40px;
@@ -190,10 +225,12 @@ body a {
     border: 1px solid black;
     border-radius: 5px;
   }
+
   .ext {
     margin-left: 490px;
     margin-top: -41px;
   }
+
   .img3 {
     width: 25px;
     height: 20px;
@@ -201,29 +238,35 @@ body a {
     margin-top: 10px;
     cursor: pointer;
   }
+
   .search1:placeholder-shown {
     padding-left: 10px;
   }
+
   .p2 {
     margin-left: 46px;
     margin-top: -27px;
     font-size: 13px;
     color: white;
   }
+
   .img4 {
     width: 20px;
     height: 25px;
     margin-left: 20px;
     margin-top: 10px;
   }
+
   .add {
     margin-left: 100px;
     margin-top: 18px;
   }
+
   .acc {
     margin-left: 0px;
     margin-top: 10px;
   }
+
   .img5 {
     width: 25px;
     height: 25px;
@@ -231,10 +274,12 @@ body a {
     margin-top: 17px;
     cursor: pointer;
   }
+
   .cart {
     margin-left: 20px;
     margin-top: 10px;
   }
+
   .img6 {
     width: 35px;
     height: 25px;
@@ -242,6 +287,7 @@ body a {
     margin-top: 15px;
     cursor: pointer;
   }
+
   .accinfo {
     position: absolute;
     top: 78px;
@@ -256,10 +302,12 @@ body a {
     display: none;
     left: 1236px;
   }
+
   .accinfo p {
     color: white;
     height: 40px;
   }
+
   .close {
     width: 25px;
     height: 25px;
@@ -268,6 +316,7 @@ body a {
     margin-bottom: 10px;
     cursor: pointer;
   }
+
   .z1,
   .z2,
   .z3,
@@ -277,38 +326,47 @@ body a {
   .z7 {
     font-size: 20px;
   }
+
   .x1 {
     font-size: 15px;
     margin-top: -13px;
   }
+
   .x2 {
     font-size: 15px;
     margin-top: -13px;
   }
+
   .x3 {
     font-size: 15px;
     margin-top: -13px;
   }
+
   .x4 {
     font-size: 15px;
     margin-top: -13px;
   }
+
   .x5 {
     font-size: 15px;
     margin-top: -13px;
   }
+
   .x6 {
     font-size: 15px;
     margin-top: -13px;
   }
+
   .x7 {
     font-size: 15px;
     margin-top: -13px;
   }
+
   .z8 {
     font-size: 20px;
     margin-top: 20px;
   }
+
   /* .slider {
     width: 400%;
     height: 930px;
@@ -324,51 +382,300 @@ body a {
     z-index: -1;
     position: relative;
   }
+
   .slide {
     width: 100%;
     height: 100%;
   }
+
   .slide img {
     width: 1536px;
     height: 629px;
     object-fit: cover;
   }
+
   @keyframes slide {
     0% {
       transform: translateX(0%);
     }
+
     14% {
       transform: translateX(0%);
     }
+
     18% {
       transform: translateX(-100%);
     }
+
     32% {
       transform: translateX(-100%);
     }
+
     36% {
       transform: translateX(-200%);
     }
+
     50% {
       transform: translateX(-200%);
     }
+
     54% {
       transform: translateX(-300%);
     }
+
     68% {
       transform: translateX(-300%);
     }
+
     72% {
       transform: translateX(-400%);
     }
+
     86% {
       transform: translateX(-400%);
     }
+
     90% {
       transform: translateX(-500%);
     }
+
     100% {
       transform: translateX(-500%);
     }
-  } 
+  }
+
+  .next1 {
+    width: 25px;
+    height: 25px;
+    margin-left: -50px;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+
+  .main {
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -90px;
+    /* display: none; */
+  }
+
+  .prev1 {
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .prev {
+    margin-left: 90px;
+    margin-top: 0px;
+    padding-top: 49px;
+  }
+
+  .next {
+    margin-left: 1360px;
+    margin-top: -90px;
+  }
+
+  .one p {
+    color: white;
+  }
+
+  .one {
+    width: 1536px;
+    height: auto;
+    margin-top: -4px;
+    /* position: fixed; */
+  }
+
+  .bg {
+    background-color: #191818;
+    width: 1536px;
+    height: 1000px;
+  }
+
+  .st1 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .st2 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .st3 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .st4 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs4 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+
+  .st5 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs5 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .st6 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs6 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .st7 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs7 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .st8 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs8 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .st9 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs9 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .st10 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .imgs10 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .y1 {
+    margin-left: 33px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .y2 {
+    margin-left: 7px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .y3 {
+    margin-left: 27px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .y4 {
+    margin-left: 32px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .y5 {
+    margin-left: 17px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .y6 {
+    margin-left: 8px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .y7 {
+    margin-left: 24px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .y8 {
+    margin-left: 24px;
+    margin-top: 0px;
+    font-size: 10px;
+    width: 60px;
+  }
+
+  .y9 {
+    margin-left: 33px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .y10 {
+    margin-left: 21px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
 }
