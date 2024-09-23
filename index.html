@@ -31,7 +31,7 @@
                     <a href="#"><p class="k12">Zip Cares</p></a>
                 </div>
             </div>
-            <div class="search">
+            <div class="search"> 
                 <input type="text" name="" id="" class="search1" placeholder="What are you looking for ?">
                 <div class="ext">
                     <img src="search.png" alt="" class="img3">
@@ -105,19 +105,99 @@
             </div>
         </div>
     </div>
+    <section class="one">
+        <div class="bg">
+            <div class="prev">
+                <img class="prev1" src="prev.png" alt="" id="prev2">
+            </div>
+            <div class="main" id="firstphase1">
+                <div class="st1">
+                    <a href="#">
+                        <img class="imgs1" src="mobiles.png" alt="">
+                        <p class="y1">Mobiles</p>
+                    </a>
+                </div>
+                <div class="st2">
+                    <a href="#">
+                        <img class="imgs2" src="washing  machine.png" alt="">
+                        <p class="y2">Washing Machiens</p>
+                    </a>
+                </div>
+                <div class="st3">
+                    <a href="#">
+                        <img class="imgs3" src="televisions.png" alt="">
+                        <p class="y3">Telivistions</p>
+                    </a>
+                </div>
+                <div class="st4">
+                    <a href="#">
+                        <img class="imgs4" src="laptop.png" alt="">
+                        <p class="y4">Laptops</p>
+                    </a>
+                </div>
+                <div class="st5">
+                    <a href="#">
+                        <img class="imgs5" src="air conditioners.png" alt="">
+                        <p class="y5">Air Conditoners</p>
+                    </a>
+                </div>
+                <div class="st6">
+                    <a href="#">
+                        <img class="imgs6" src="kitchen appliances.png" alt="">
+                        <p class="y6">Kitchen Appliances</p>
+                    </a>
+                </div>
+                <div class="st7">
+                    <a href="#">
+                        <img class="imgs7" src="refrigerators.png" alt="">
+                        <p class="y7">Refrigerators</p>
+                    </a>
+                </div>
+                <div class="st8">
+                    <a href="#">
+                        <img class="imgs8" src="headphones & Earphones.png" alt="">
+                        <p class="y8">Headphones & Earphones</p>
+                    </a>
+                </div>
+                <div class="st9">
+                    <a href="#">                        
+                        <img class="imgs9" src="geysers.png" alt="">
+                        <p class="y9">Geysers</p>
+                    </a>
+                </div>
+                <div class="st10">
+                    <a href="#">
+                        <img class="imgs10" src="water purifiers.png" alt="">
+                        <p class="y10">Water Purifiers</p>
+                    </a>
+                </div>
+            </div>
+            <div class="next">
+                <img src="next.png" alt="" class="next1" id="next2">
+            </div>
+        </div>
+    </section>
 </body>
 <script>
     document.getElementById("open1").addEventListener("click",function(){
         document.getElementById("show1").style.display="flex";
-    })
+    });
     document.getElementById("close1").addEventListener("click",function(){
         document.getElementById("show1").style.display="none";
-    })
+    });
     document.getElementById("acc3").addEventListener("click",function(){
         document.getElementById("accshow").style.display="flex";
-    })
-    document.getElementById("close4").addEventListener("click", function () {
+    });
+    document.getElementById("close4").addEventListener("click", function (){
         document.getElementById("accshow").style.display = "none";
+    });
+    document.getElementById("next2").addEventListener("click",function(){
+        document.getElementById("firstphase1").style.display="none";
+        /* one more next side */
+    });
+    document.getElementById("prev2").addEventListener("click",function(){
+        document.getElementById("firstphase1").style.display="flex";
+        /* one more prev side */
     })
 </script>
 </html>
